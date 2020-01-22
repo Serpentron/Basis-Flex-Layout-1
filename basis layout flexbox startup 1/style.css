@@ -1,0 +1,49 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+
+    background-color: pink;
+}
+
+.container {
+    width: 50%;
+    border: 1px solid red;
+    margin: auto auto;
+}
+
+header {
+    width: 100%;
+    background-color: purple;
+}
+
+.flex-navbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+main {
+    background-color: aqua;
+    flex: 1 1 70%;
+
+}
+
+aside {
+    background-color: blueviolet;
+    flex: 1 1 30%;
+}
+
+.flex {
+    justify-content: ;
+    display: flex;
+    border: 1px solid green;
+}
+
+.column {
+
+    flex-basis: 1 1 50%;
+
+}
